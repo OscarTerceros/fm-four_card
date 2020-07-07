@@ -72,7 +72,7 @@ body{
   align-self: flex-end;
 } 
 
-@media (max-width: 372px){
+@media (min-width: 372px){
   .container {
     margin: 0;
     width: 100%;
