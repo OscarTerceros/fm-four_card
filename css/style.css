@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -26,4 +33,21 @@ body{
 .title p {
   font-weight: 200;
   margin: 0;
+}
+
+@media (max-width: 372px){
+  .container {
+    margin: 0;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .titleNormal {
+    font-size: 25px;
+  }
+  .titleBold {
+    font-size: 25px;
+  }
+  .title p {
+    font-size: 16px;
+  }
 }
