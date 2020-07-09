@@ -12,8 +12,10 @@ body{
   background-color: #fafafa;
 }
 .container {
+  border: 1px solid red;  
   margin: 0 auto;
   width: 100%;
+  max-width: 1200px;
 }
 
 /*-------header-------*/
@@ -38,6 +40,7 @@ body{
 }
 
 /*-------main-------*/
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -81,18 +84,16 @@ body{
 } 
 @media screen and (max-width: 768px) {
   .container {
-    margin: 0;
-    width: 100%;
     padding: 0 30px;
+    width: 100%;
   }
   .card {
-    width: 60vw;
+    width: 65vw;
   }
 }
 @media screen and (max-width: 372px) {
-  
   .card {
-    width: 310px;
+    width: 100%;
   }
   .titleNormal {
     font-size: 25px;
@@ -103,5 +104,4 @@ body{
   .title p {
     font-size: 16px;
   }
-  
 }
