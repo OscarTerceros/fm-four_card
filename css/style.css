@@ -12,7 +12,6 @@ body{
   background-color: #fafafa;
 }
 .container {
-  border: 1px solid red;  
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
@@ -69,6 +68,7 @@ body{
 }
 .blue {
   border-top: 5px solid hsl(212, 86%, 64%);
+  margin-bottom: 100px;
 }
 .card h3 {
   margin: 0;
